@@ -6,8 +6,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const unitToggle = document.getElementById("unitToggle");
     const useGeolocationBtn = document.getElementById("useGeolocationBtn");
 
-    // Your OpenWeatherMap API key (replace with your own)
-    const apiKey = "7b42dfa1dc05602b5d57f570f876a878";
+    require('dotenv').config();
+    const apiKey = process.env.API_KEY;
+
 
     // Event listener for the "Get Weather" button
     getWeatherBtn.addEventListener("click", function () {
