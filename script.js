@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const unitToggle = document.getElementById("unitToggle");
     const useGeolocationBtn = document.getElementById("useGeolocationBtn");
 
-    require('dotenv').config();
-    const apiKey = process.env.API_KEY;
+   
+    const apiKey ='7b42dfa1dc05602b5d57f570f876a878';
 
 
     // Event listener for the "Get Weather" button
