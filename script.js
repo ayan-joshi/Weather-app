@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const useGeolocationBtn = document.getElementById("useGeolocationBtn");
 
     // Your OpenWeatherMap API key (replace with your own)
-    const apiKey = "6ec9e8d64207a9b776c2725204803aeb";
+    const apiKey = "7b42dfa1dc05602b5d57f570f876a878";
 
     // Event listener for the "Get Weather" button
     getWeatherBtn.addEventListener("click", function () {
